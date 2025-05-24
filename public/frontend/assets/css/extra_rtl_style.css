@@ -1,0 +1,83 @@
+/*
+Theme Name: Limmo
+Theme URI: http://www.ansonika.com/limmo/
+Author: Ansonika
+Author URI: http://themeforest.net/user/Ansonika/
+*/
+/*-------- Structure --------*/
+#social {
+  float: left;
+}
+
+#social ul li {
+  margin: 0 10px 0 0;
+}
+
+.offcanvas-start#offcanvasNav {
+  border-left: none;
+}
+
+/*-------- Datepicker --------*/
+.daterangepicker td.start-date {
+  border-radius: 0 4px 4px 0;
+}
+
+.daterangepicker td.end-date {
+  border-radius: 4px 0 0 4px;
+}
+
+@media (min-width: 730px) {
+  .daterangepicker.rtl .calendar.right .calendar-table {
+    border-left: 1px solid #d9e1e6;
+  }
+
+  .daterangepicker.rtl .calendar.left .calendar-table {
+    border-right: 1px solid #d9e1e6;
+  }
+}
+@media (min-width: 730px) {
+  .daterangepicker .calendar-table th.next {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+
+  .daterangepicker .calendar-table th.prev {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+}
+/*-------- Forms --------*/
+input.form-control {
+  text-align: right;
+}
+
+.checkbox_radio_container .wrapper {
+  padding: 10px 44px 10px 10px;
+}
+
+.checkbox_radio_container .radio,
+.checkbox_radio_container .checkbox {
+  direction: ltr;
+  text-align: left;
+  left: auto;
+  right: 8px;
+}
+.checkbox_radio_container .wrapper {
+  padding: 10px 44px 10px 10px;
+}
+
+input.qtyplus {
+  right: auto;
+  left: 35px;
+}
+
+input.qtyminus {
+  right: auto;
+  left: 5px;
+}

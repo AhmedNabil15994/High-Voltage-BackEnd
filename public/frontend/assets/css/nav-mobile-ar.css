@@ -1,0 +1,110 @@
+.site-footer{
+    position: relative;
+} 
+.site-footer .mobile-nav {
+    display: none;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #f0f0f0;
+    background: #093f68;
+    z-index: 2000;
+}
+a {
+    color: #23608b;
+}
+.site-footer .mobile-nav li span {
+    display: block;
+    font-size: 12px;
+}
+.site-footer .mobile-nav li i {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+ .site-footer .mobile-nav a.nav-link {
+    color: #ffffff;
+}
+.pricing-area .sidebar-wrap{
+    display: none;
+}
+
+#scrollUp {
+    background: #00baee;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    bottom: 85px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 48px;
+}
+.cta-form .form-group label {
+    position: absolute;
+    right: 40px;
+    top: 24px;
+    color: #00bbee;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+.more{
+  position: relative;  
+}
+.more .widget .widget-title {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    padding-right: 30px;
+    margin-bottom: 0;
+}
+.more .widget span{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #01abdb;
+}
+.sidebar-wrap.more .widget {
+    padding: 20px 38px;
+    /* border: 2px solid #ededed; */
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, .05) !important;
+    height: 56px;
+}
+
+@media (max-width: 991px) {
+    .pricing-area .sidebar-wrap{
+    display: block;
+}
+    .site-footer .mobile-nav {
+        display: block;
+    }
+    .mobile-menu.mean-container {
+    display: none;
+}
+    .header-info-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+}
+    .header-lang{
+        display: none;
+    }
+    .site-footer{
+    position: relative;
+        margin-bottom: 70px;
+} 
+}

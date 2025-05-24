@@ -1,0 +1,15 @@
+{
+    "name": "Baqat",
+    "alias": "baqat",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Baqat\\Providers\\BaqatServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "composer.php"
+    ],
+    "requires": []
+}
